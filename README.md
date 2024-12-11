@@ -13,20 +13,20 @@ The objective for this repository is to use medical data to predict health outco
     - Numerical features include rectal_temp, pulse, respiratory_rate, etc.
     - Categorical features include surger, age, outcome, etc.
   
--Exploratory Data Analysis
+- Exploratory Data Analysis:
     - Categorical bar graphs, and numerical histograms.
     - Used heatmap to analyze correlation beween columns.
 
 - Data Preprocessing:
-    -Id, hospital_num removed
-    -Filled missing values "missing" for categorical data. No missings in numerical data.
-    -After EDA, dropped lesion_3, and abdomo_protein due to multicollinearity.
-    -Encoded categorical columns.
+    - Id, hospital_num removed
+    - Filled missing values "missing" for categorical data. No missings in numerical data.
+    - After EDA, dropped lesion_3, and abdomo_protein due to multicollinearity.
+    - Encoded categorical columns.
 
--Machine Learning:
-  -Train-validation-test set split.
-  -Implemented random forest.
-  -Evaluated the performance metrics.
-  -Model improvement using grid search, and another evaluation metric calculation. 
+- Machine Learning:
+  - Train-validation-test set split.
+  - Implemented random forest.
+  - Evaluated the performance metrics.
+  - Model improvement using grid search, and another evaluation metric calculation. 
 
 
