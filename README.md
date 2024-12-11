@@ -27,6 +27,14 @@ The objective for this repository is to use medical data to predict health outco
   - Train-validation-test set split.
   - Implemented random forest.
   - Evaluated the performance metrics.
-  - Model improvement using grid search, and another evaluation metric calculation. 
+  - Model improvement using grid search, and another evaluation metric calculation.
+ 
+-----------------------------------------------------------------------------------------------------------------------
+
+# Conclusion
+The best parameters for the Random Forest is no max depth, 10 k folds (our splits), and 100 n_estimators(our trees). These parameters led to the best performance for our validation data, which balances bias and variance without over/underfitting.
+
+Moving forward, I would like to go back and work with the other columns in which there was moderate correlation. Or perhaps look at patterns between hospitals and outcomes. 
+
 
 
