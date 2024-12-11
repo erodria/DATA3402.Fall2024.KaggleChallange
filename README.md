@@ -12,7 +12,8 @@ The objective for this repository is to use medical data to predict health outco
     - test.csv = (824 x 28) shape (since this is our testing set, there is no outcome column)
     - Numerical features include rectal_temp, pulse, respiratory_rate, etc.
     - Categorical features include surger, age, outcome, etc.
-  -Exploratory Data Analysis
+  
+-Exploratory Data Analysis
     - Categorical bar graphs, and numerical histograms.
     - Used heatmap to analyze correlation beween columns.
 
