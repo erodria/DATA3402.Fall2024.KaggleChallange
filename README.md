@@ -17,10 +17,10 @@ The objective for this repository is to use medical data to predict health outco
     - Used heatmap to analyze correlation beween columns.
 
 - Data Preprocessing:
-  -Id, hospital_num removed.
-  -Filled missing values "missing" for categorical data. No missings in numerical data.
-  -After EDA, dropped lesion_3, and abdomo_protein due to multicollinearity.
-  -Encoded categorical columns.
+    -Id, hospital_num removed
+    -Filled missing values "missing" for categorical data. No missings in numerical data.
+    -After EDA, dropped lesion_3, and abdomo_protein due to multicollinearity.
+    -Encoded categorical columns.
 
 -Machine Learning:
   -Train-validation-test set split.
