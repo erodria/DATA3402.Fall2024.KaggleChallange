@@ -8,19 +8,20 @@ The objective for this repository is to use medical data to predict health outco
 -------------------------------------------------------------------------------------------------------------------
 # Method
 - Data Understanding:
-    - train.csv has shape of (1235 x 29)
-    - test.csv has shape of (824 x 28) (since this is our testing set, there is no outcome column).
+    - train.csv = (1235 x 29) shape
+    - test.csv = (824 x 28) shape (since this is our testing set, there is no outcome column)
     - Numerical features include rectal_temp, pulse, respiratory_rate, etc.
     - Categorical features include surger, age, outcome, etc.
   -Exploratory Data Analysis
     - Categorical bar graphs, and numerical histograms.
-    - Used heatmap to analyze correlation beween columns. 
-- Data Preprocessing
-  - Cleaning;
-    - Id, hospital_num removed.
-    - Filled missing values "missing" for categorical data. No missings in numerical data.
+    - Used heatmap to analyze correlation beween columns.
+
+- Data Preprocessing:
+  -Id, hospital_num removed.
+  -Filled missing values "missing" for categorical data. No missings in numerical data.
   -After EDA, dropped lesion_3, and abdomo_protein due to multicollinearity.
   -Encoded categorical columns.
+
 -Machine Learning:
   -Train-validation-test set split.
   -Implemented random forest.
