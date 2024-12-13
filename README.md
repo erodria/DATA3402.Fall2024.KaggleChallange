@@ -31,9 +31,9 @@ The objective for this repository is to use medical data to predict health outco
     - Categorical bar graphs, and numerical histograms.
     - Used heatmap to analyze correlation beween columns.
       
-![counts](images/categorical_bar_plots.png)
-![histogram](images/num_hist.png)
-![heatmap](images/heatmap.png)
+![counts](categorical_bar_plots.png)
+![histogram](num_hist.png)
+![heatmap](heatmap.png)
 
 - Machine Learning:
   - Implemented Random Forest with the following steps: 
@@ -42,8 +42,8 @@ The objective for this repository is to use medical data to predict health outco
           - Evaluated the performance metrics.
       - Evaluated model performance using metrics such as accuracy, precision, recal and F1-score.
 
-![auc](images/auc.png)
-![top_ft](images/top_ft.png)
+![auc](auc.png)
+![top_ft](top_ft.png)
 
  
 -----------------------------------------------------------------------------------------------------------------------
